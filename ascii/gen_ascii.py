@@ -299,7 +299,7 @@ if __name__ == "__main__":
         cell_width_px=args.cell_width_px,
         cell_height_px=args.cell_height_px,
         aspect_ratio_correction=args.aspect_ratio_correction,
-        posterize_bits=args.posterize_bits,
+        posterize_bits=0,
         skip_lightest_char_if_space=args.skip_lightest_if_space,
         output_path=args.output
     )
